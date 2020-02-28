@@ -1,1 +1,2 @@
-# AP17110010052-CSE306
+# CSE306-CD
+Lab Exercises developed during the Compiler Design course
