@@ -31,6 +31,8 @@ void { printf("\n %s is keyword",yytext);}
 %%
 main()
 {
+yyin = fopen("inp.txt", "r"); 
+yyout = fopen("out.txt", "w");
 yylex();
 }
 int yywrap()
